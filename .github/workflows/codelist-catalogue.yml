@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - 'dist/WMOCodeLists.xml'
+      - 'WMOCodeLists.xml'
   pull_request:
     branches:
       - master
@@ -28,7 +28,7 @@ jobs:
         git config --global user.name "Tom Kralidis"
     - name: generate codelist catalogue ⚙️
       run: | 
-        python3 scripts/generate-codelist-catalogue.py > dist/WMOCodeLists.xml
+        python3 scripts/generate-codelist-catalogue.py > WMOCodeLists.xml
         git add .
         git commit -am "update ISO codelist catalogue"
         git push
