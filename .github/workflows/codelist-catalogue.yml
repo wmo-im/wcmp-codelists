@@ -3,12 +3,12 @@ name: Generate ISO codelist catalogue from codelist CSV tables ⚙️
 on:
   push:
     branches:
-      - master
-    paths:
-      - 'WMOCodeLists.xml'
+      - main
+#    paths:
+#      - 'WMOCodeLists.xml'
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   autogenerate_wmo_codelist_catalogue_xml:
