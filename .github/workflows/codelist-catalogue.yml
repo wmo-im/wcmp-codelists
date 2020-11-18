@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'WMOCodeLists.xml'
+#    paths:
+#      - 'WMOCodeLists.xml'
   pull_request:
     branches:
       - master
