@@ -10,7 +10,7 @@
     Version 1.3.5: 24 November 2015: Introduction of changes from Fast Track approval
     Version 1.3.6: 26 May 2016: Introduction of changes from Simple approval procedure
 -->
-<gmx:CT_CodelistCatalogue xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://wis.wmo.int/2011/schemata/iso19139_2007/schema/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://wis.wmo.int/2011/schemata/iso19139_2007/schema/gmx/gmx.xsd">
+<gmx:CT_CodelistCatalogue xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://wis.wmo.int/2011/schemata/iso19139_2007/schema/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://wis.wmo.int/2011/schemata/iso19139_2007/schema/gmx/gmx.xsd">
   <gmx:name>
     <gco:CharacterString>WMOCodelists</gco:CharacterString>
   </gmx:name>
@@ -117,13 +117,13 @@
       <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml">WMO_CategoryCode</gml:identifier>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_weatherObservations">
-          <gml:description>weather observations</gml:description>
+          <gml:description>Weather observations</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">weatherObservations</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_weatherForecasts">
-          <gml:description>weather forecasts</gml:description>
+          <gml:description>Weather forecasts</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">weatherForecasts</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
@@ -147,25 +147,25 @@
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_landMeteorologyClimate">
-          <gml:description>land meteorology climate</gml:description>
+          <gml:description>Land meteorology climate</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">landMeteorologyClimate</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_synopticMeteorology">
-          <gml:description>synoptic meteorology</gml:description>
+          <gml:description>Synoptic meteorology</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">synopticMeteorology</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_marineMeteorology">
-          <gml:description>marine meteorology</gml:description>
+          <gml:description>Marine meteorology</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">marineMeteorology</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_agriculturalMeteorology">
-          <gml:description>agricultural meteorology</gml:description>
+          <gml:description>Agricultural meteorology</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">agriculturalMeteorology</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
@@ -177,7 +177,7 @@
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_marineAerology">
-          <gml:description>marine aerology</gml:description>
+          <gml:description>Marine aerology</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">marineAerology</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
@@ -189,13 +189,13 @@
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_landHydrology">
-          <gml:description>land hydrology</gml:description>
+          <gml:description>Land hydrology</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">landHydrology</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_rocketSounding">
-          <gml:description>rocket sounding</gml:description>
+          <gml:description>Rocket sounding</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">rocketSounding</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
@@ -207,31 +207,31 @@
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_waterPollution">
-          <gml:description>water pollution</gml:description>
+          <gml:description>Water pollution</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">waterPollution</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_landWaterPollution">
-          <gml:description>land water pollution</gml:description>
+          <gml:description>Land water pollution</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">landWaterPollution</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_seaPollution">
-          <gml:description>sea pollution</gml:description>
+          <gml:description>Sea pollution</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">seaPollution</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_landPollution">
-          <gml:description>land pollution</gml:description>
+          <gml:description>Land pollution</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">landPollution</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_airPollution">
-          <gml:description>air pollution</gml:description>
+          <gml:description>Air pollution</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">airPollution</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
@@ -249,39 +249,39 @@
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_satelliteObservation">
-          <gml:description>satellite observation</gml:description>
+          <gml:description>Satellite observation</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">satelliteObservation</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_airplaneObservation">
-          <gml:description>airplane observation</gml:description>
+          <gml:description>Airplane observation</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">airplaneObservation</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_observationPlatform">
-          <gml:description>observation platform</gml:description>
+          <gml:description>Observation platform</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">observationPlatform</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_spaceWeather">
-          <gml:description>the physical and phenomenological state of the natural space environment including the sun, the solar wind, the magnetosphere, the ionosphere and the thermosphere, and its
+          <gml:description>The physical and phenomenological state of the natural space environment including the sun, the solar wind, the magnetosphere, the ionosphere and the thermosphere, and its
 interaction with the Earth.</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">spaceWeather</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_atmosphericComposition">
-          <gml:description>the chemical abundance in the earth's atmosphere of its constituents including nitrogen, oxygen, argon, carbon dioxide, water vapour, ozone, neon, helium, krypton,
+          <gml:description>The chemical abundance in the Earth's atmosphere of its constituents including nitrogen, oxygen, argon, carbon dioxide, water vapour, ozone, neon, helium, krypton,
 methane, hydrogen and nitrous oxide</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">atmosphericComposition</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
       <gmx:codeEntry>
         <gmx:CodeDefinition gml:id="WMO_CategoryCode_radiation">
-          <gml:description>radiation</gml:description>
+          <gml:description>Radiation</gml:description>
           <gml:identifier codeSpace="http://wis.wmo.int/2013/codelists/WMOCodeLists.xml#WMO_CategoryCode">radiation</gml:identifier>
         </gmx:CodeDefinition>
       </gmx:codeEntry>
